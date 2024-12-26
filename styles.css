@@ -1,1 +1,55 @@
 /*  your css code here. If applicable */
+.hero {
+    display: flex; /* Use flexbox to align elements */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    padding: 20px; /* Add spacing inside the container */
+    height: 100vh; /* Full viewport height */
+    background-color: #f7f9fc; /* Light background color */
+}
+
+/* Hero Image */
+.hero-image {
+    width: 50%; /* Occupy half of the container's width */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensure the image fits its container */
+    border-radius: 10px; /* Add rounded corners */
+    margin-right: 20px; /* Add space between image and text */
+}
+
+/* Hero Text Content */
+.hero-content {
+    max-width: 400px; /* Limit the width of the text */
+    text-align: left; /* Align text to the left */
+}
+
+/* Heading */
+.hero-content h1 {
+    font-size: 2.5em; /* Large heading size */
+    margin-bottom: 10px; /* Add spacing below the heading */
+    color: #333; /* Dark text color */
+}
+
+/* Paragraph */
+.hero-content p {
+    font-size: 1.2em; /* Slightly larger text for description */
+    margin-bottom: 20px; /* Add spacing below the paragraph */
+    color: #555; /* Medium gray text color */
+}
+
+/* Explore Now Button */
+.hero-button {
+    padding: 10px 20px; /* Add space inside the button */
+    background-color: #e60023; /* Pinterest red color */
+    color: white; /* White text color */
+    text-decoration: none; /* Remove underline from links */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 1em; /* Standard font size */
+    display: inline-block; /* Make it behave like a button */
+    transition: background-color 0.3s ease; /* Add hover effect */
+}
+
+/* Hover Effect for Button */
+.hero-button:hover {
+    background-color: #c0001d; /* Darker red on hover */
+}
